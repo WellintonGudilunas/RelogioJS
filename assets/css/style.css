@@ -5,23 +5,40 @@
     font-family: sans-serif;
 }
 
-body{
+body {
     height: 100vh;
     background: linear-gradient(120deg, #ccb63cda, #bbcbeed8);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 7px;
+  }
+
+  #data{
+    height: 50px;
+    width: 550px;
+    background: white;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+    background: rgb(236, 200, 39);
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
-
 #relogio{
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 200px;
     width: 550px;
-    background: transparent;
-    border-radius: 3px;
+    background: rgb(236, 200, 39);
+    border-radius: 10px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20%;
 }
 
 #relogio div {
