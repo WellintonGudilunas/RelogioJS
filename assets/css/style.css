@@ -22,8 +22,9 @@ body {
     font-weight: bolder;
     font-size: 30px;
     background: rgb(236, 200, 39);
-    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
-    color: white;
+    box-shadow: 1px 0px 4px 4px rgba(255, 140, 0, 0.7);
+
+    color: #333333;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,7 +38,7 @@ body {
     width: 550px;
     background: rgb(236, 200, 39);
     border-radius: 10px;
-    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 3px 3px 4px rgba(255, 140, 0, 0.7);
     margin-bottom: 20%;
 }
 
