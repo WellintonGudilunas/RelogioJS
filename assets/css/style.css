@@ -7,11 +7,11 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(120deg, #ccb63cda, #bbcbeed8);
+    background: linear-gradient(180deg, #ccb63cda, #a2baecd8);
     display: grid;
     justify-content: center;
     align-content: center;
-    grid-gap: 7px;
+    grid-gap: 10px;
   }
 
   #data{
@@ -38,7 +38,7 @@ body {
     width: 550px;
     background: rgb(236, 200, 39);
     border-radius: 10px;
-    box-shadow: 1px 3px 3px 4px rgba(255, 140, 0, 0.7);
+    box-shadow: 1px 1px 3px 4px rgba(255, 140, 0, 0.7);
     margin-bottom: 20%;
 }
 
@@ -53,7 +53,7 @@ body {
     background: rgba(5, 5, 5, 0.9);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
     border-radius: 7px;
-    letter-spacing: 3pxs;
+    letter-spacing: 2px;
 }
 
 #relogio span {
